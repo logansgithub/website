@@ -2,7 +2,7 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: Portfolio - Logan Engler
+title: Portfolio
 # description: This will be meta HTML tag content. This can be ignored.
 description: This is a personal website designed to better show my portfolio. Built with Jekyll and written in HTML.
 # baseurl: The subpath of your site
