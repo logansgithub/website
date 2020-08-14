@@ -1,5 +1,6 @@
 ### VALUES YOU SHOULD CHANGE ###
-
+<meta property="og:title" content="your_link_title">
+<meta property="og:image" content="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80">
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: Portfolio
