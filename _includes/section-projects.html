@@ -9,10 +9,11 @@
         <p class="project-desc">{{project.descr}}</p>
 
         {% if project.img %}
+	<center>
 	<a href="/website/p{{project.num}}.html">
           <img src="{{project.img}}" alt="Wrong Path" width="{{project.w}}" height="{{project.h}}">
         </a>
-	</br>
+	</center>
 	{% endif %}
 
         {% if project.demo %}
