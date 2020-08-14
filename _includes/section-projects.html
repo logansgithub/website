@@ -10,13 +10,13 @@
 
         {% if project.img %}
 	<a href="{{project.demo}}">
-          <img src="{{project.img}}" alt="Wrong Path" width="{{project.w}}" height="{{project.h}}">
+          <img src="website/{{project.img}}" alt="Wrong Path" width="{{project.w}}" height="{{project.h}}">
         </a>
 	</br>
 	{% endif %}
 
         {% if project.demo %}
-          <a class="highlight-link" href="/p{{project.num}}.html" target="_blank" rel="noreferrer">
+          <a class="highlight-link" href="/website/p{{project.num}}.html" target="_blank" rel="noreferrer">
             Demo
           </a>
         {% endif %}
