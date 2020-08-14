@@ -1,0 +1,34 @@
+# This will be my CS Skill Tree
+# > name: Name of your framework
+# > weight: Describes how good you know the framework - values from 1 up to 5
+#
+# Example of a framework
+# - name: Framework
+#   weight: 5
+
+- name: C++
+  weight: 5
+
+- name: MATLAB
+  weight: 5
+
+- name: HTML
+  weight: 2
+
+- name: Jekyll
+  weight: 1
+
+- name: CSS
+  weight: 2
+
+- name: OOP
+  weight: 2
+
+- name: Python
+  weight: 4
+
+- name: Prolog
+  weight: 1
+
+- name: Simulink
+  weight: 2

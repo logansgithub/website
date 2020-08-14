@@ -1,0 +1,83 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline-side: right
+
+- title: Bruin Racing
+  date: Jan 2020 - Present
+  title-url: https://www.bruinracing.com/
+  subtitle: Business Team
+  tags:
+    - tag: Cost Analysis
+    - tag: Fund Management
+    - tag: Public Speaking
+  timeline-side: left
+
+- title: Bruin Racing
+  title-url: https://www.bruinracing.com/
+  date: Sep 2019 - Present
+  subtitle: Chassis Engineer
+  tags:
+    - tag: FEA
+    - tag: Solidworks
+    - tag: Manufacturing
+  timeline-side: left
+
+- title: UCLA Housing
+  title-url: https://reslife.ucla.edu/
+  date: Summer 2019
+  subtitle: Resident Assistant
+  tags:
+    - tag: Leadership
+    - tag: Conflict Resolution
+    - tag: Management
+  timeline-side: right
+
+- title: UCLA Housing
+  title-url: https://reslife.ucla.edu/
+  date: 2017 - 2018
+  subtitle: Community Representative 
+  tags:
+    - tag: Leadership
+    - tag: Budgeting
+    - tag: Public Speaking
+  timeline-side: right
+
+- title: Metawave
+  title-url: https://www.metawave.co/
+  date: Fall 2018
+  subtitle: Engineering Intern
+  tags:
+    - tag: CAD Design
+    - tag: 3D Printing
+    - tag: Product Verification
+    - tag: Product Assembly
+  timeline-side: left
+
+- title: UCLA
+  title-url: https://www.usnews.com/best-colleges/rankings/national-universities/top-public
+  date: 2017 - 2021
+  subtitle: BS. Mechanical Engineering <br> <strong><em>Upper Div GPA</em></strong> - 3.91 <br> <strong><em>Activities</em></strong> - Bruin Racing SAE Baja Car Team, 3D Printing Club, Competetive Sailing Team
+  tags:
+    - tag: Mechanical Engineering
+    - tag: Computer Science
+  timeline-side: right
+
+- title: Mount Carmel High School
+  date: 2013 - 2017
+  subtitle: <strong><em>GPA</em></strong> - 4.0 <br> <strong><em>Activities</em></strong>- Varsity water polo, Varsity Lacrosse, Marching Band, Rock Climbing Club <br> <strong><em>Honors</em></strong>- CSF, NHS, PTA Scholarship
+  timeline-side: right

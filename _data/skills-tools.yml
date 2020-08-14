@@ -1,0 +1,28 @@
+# Soft SKILLS
+# > name: Name of your Dev Tool
+# > weight: Describes how good you know the tool - values from 1 up to 5
+#
+# Example of a Dev Tool
+# - name: Git
+#   weight: 5
+
+- name: Leadership
+  weight: 3
+
+- name: Public Speaking
+  weight: 3
+
+- name: Budgeting
+  weight: 1
+
+- name: Fund Management
+  weight: 1
+
+- name: Teamwork
+  weight: 2
+
+- name: Problem Solving
+  weight: 1
+
+- name: Communication
+  weight: 2

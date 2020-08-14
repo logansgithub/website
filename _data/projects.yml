@@ -1,0 +1,51 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+- name: Project 1 - TunnelMan
+  num: 1
+  descr: "This class project is a fully functional game modeled after the classic arcade game 'Dig Dug'. Dig your way through the mines in order to find the hidden oil before the angry protesters catch you. You can use tools such as sonar, gold nuggets, and water guns to help protect yourself. Just watch out for fallling rocks. <br> "
+  demo: /p1.html
+  tags:
+    - tag: C++
+    - tag: OOP
+    - tag: Video Game Development
+  img: /assets/digdug.png
+  w: 200
+  h: 200
+
+- name: Project 2 - Chrome Dinosaur Game Bot
+  num: 2
+  descr: "This python script is capable of playing the Google Chrome offline Dinosaur Game and avoiding all obstacles. The project utilized the Autopy library’s image processing capabilities in order to respond to the screen in real time."
+  demo: /p2.html
+  img: /assets/dino.png
+  w: 400
+  h: 150
+  tags:
+    - tag: Python
+    - tag: Autopy
+    - tag: Image Processing
+- name: Project 3 - UAV Optimization Script
+  num: 3
+  descr: "This MATLAB project computes the lift, drag, power required, propeller efficiency, cruising speed, stall speed, stability margins, range, and endurance of a small UAV with a given payload. The script then creates N=100,000 aircraft with randomized geometries such as wing area, wingspan, chord lengths, and fuselage lengths in order to identify the optimal dimensions for maximum endurance. Finally, the code outputs the specs of the best identified aircraft, along with a generated preliminary 3D model."
+  tags:
+    - tag: MATLAB
+    - tag: Simulink
+    - tag: Image Processing
+
+- name: Project 4 - This website!
+  descr: "This website was my first exposure to HTML and Front End Development. I have learned a lot and intend to keep learning more!"
+  tags:
+    - tag: HTML
+    - tag: Jekyll
+    - tag: Markdown

@@ -1,0 +1,41 @@
+# > name: Name of your programming language
+# > weight: Describes how good you know the language - values from 1 up to 5
+#
+# Example of a Language
+# - name: Language
+#   weight: 5
+
+- name: Solidworks
+  weight: 5
+
+- name: ABAQUS
+  weight: 4
+
+- name: 3D Printing
+  weight: 1
+
+- name: FEA
+  weight: 2
+
+- name: Machining
+  weight: 3
+
+- name: Heat Transfer
+  weight: 1
+
+- name: CNC
+  weight: 1
+
+- name: CAD
+  weight: 2
+
+- name: Thermodynamics
+  weight: 2
+
+- name: Aeronautics
+  weight: 4
+
+- name: Fluid Mechanics
+  weight: 1
+
+
