@@ -20,7 +20,7 @@
     - tag: C++
     - tag: OOP
     - tag: Video Game Development
-  img: /assets/digdug.png
+  img: /website/assets/digdug.png
   w: 200
   h: 200
 
@@ -28,7 +28,7 @@
   num: 2
   descr: "This python script is capable of playing the Google Chrome offline Dinosaur Game and avoiding all obstacles. The project utilized the Autopy library’s image processing capabilities in order to respond to the screen in real time."
   demo: /p2.html
-  img: /assets/dino.png
+  img: /website/assets/dino.png
   w: 400
   h: 150
   tags:
