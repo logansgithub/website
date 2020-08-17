@@ -1,7 +1,8 @@
 {% if site.show_projects %}
-  <h1 class="title"><span>{{site.projects_title}}</span></h1>
+  <h1 class="title"><span>Coding Projects</span></h1>
   <div class="projects-wrapper">
     {% for project in site.data.projects %}
+     {% if project.mech != true %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
@@ -10,14 +11,14 @@
 
         {% if project.img %}
 	<center>
-	<a href="/website/p{{project.num}}.html">
+	<a href="/website{{project.demo}}">
           <img src="{{project.img}}" alt="Wrong Path" class="responsive" width="{{project.w}}" height="{{project.h}}">
         </a>
 	</center>
 	{% endif %}
 
         {% if project.demo %}
-          <a class="highlight-link" href="/website/p{{project.num}}.html" target="_blank" rel="noreferrer">
+          <a class="highlight-link" href="/website{{project.demo}}" target="_blank" rel="noreferrer">
             Demo
           </a>
         {% endif %}
@@ -30,6 +31,7 @@
           </div>
         {% endif %}
       </div>
+     {% endif %}
     {% endfor %}
   </div>
 {% endif %}
