@@ -44,8 +44,25 @@
     - tag: Image Processing
 
 - name: Project 4 - This website!
+  num: 4
   descr: "This website was my first exposure to HTML and Front End Development. I have learned a lot and intend to keep learning more!"
   tags:
     - tag: HTML
     - tag: Jekyll
     - tag: Markdown
+
+- name: Engine Turbine Modal and Deflection Analysis - Abaqus
+  descr: In this project I modeled an engine turbine using symmetry to reduce file size and determined the maximum deflections of the blades at various RPM. Additionally, I found the vibrational modes of the engine and created a Campbell diagram in MATLAB to highlight the RPM frequencies to avoid.
+  mech: true
+  img: /website/assets/turbine.png
+  demo: /turbine.html
+  tags:
+    - tag: FEA
+    - tag: Abaqus
+
+- name: UAV Design - CAD
+  descr: This Solidworks project was completed in tandem with the UAV optimization script described above. Once the optimization code gave me the optimal dimensions, I modeled the plane in Solidworks using the appropriate airfoils, cross sections, and wing sweeps.
+  mech: true
+  tags:
+    - tag: Solidworks
+    - tag: Aeronautics
