@@ -56,6 +56,8 @@
   mech: true
   img: /website/assets/turbine.PNG
   demo: /turbine.html
+  w: 776
+  h: 646
   tags:
     - tag: FEA
     - tag: Abaqus
