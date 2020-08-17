@@ -54,7 +54,7 @@
 - name: Engine Turbine Modal and Deflection Analysis - Abaqus
   descr: In this project I modeled an engine turbine using symmetry to reduce file size and determined the maximum deflections of the blades at various RPM. Additionally, I found the vibrational modes of the engine and created a Campbell diagram in MATLAB to highlight the RPM frequencies to avoid.
   mech: true
-  img: /website/assets/turbine.png
+  img: /website/assets/turbine.PNG
   demo: /turbine.html
   tags:
     - tag: FEA
