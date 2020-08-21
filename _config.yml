@@ -83,7 +83,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact Me
 # contact_description: This will be displayed under the title.
-contact_description: Feel free to contact me on LinkedIn or by email anytime. I am looking for career opportunities both in mechanical and programming fields. I would also be happy to design websites as well.
+contact_description: Feel free to contact me on LinkedIn or by email anytime. I am looking for career opportunities both in mechanical and programming fields. 
 
 # GITHUB-METADATA
 # Set this to your forked repository
