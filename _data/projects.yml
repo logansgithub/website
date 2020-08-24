@@ -39,7 +39,7 @@
   num: 3
   descr: "This MATLAB project computes the lift, drag, power required, propeller efficiency, cruising speed, stall speed, stability margins, range, and endurance of a small UAV with a given payload. The script then creates N=100,000 aircraft with randomized geometries such as wing area, wingspan, chord lengths, and fuselage lengths in order to identify the optimal dimensions for maximum endurance. Finally, the code outputs the specs of the best identified aircraft, along with a generated preliminary 3D model."
   demo: /uav.html
-  img: /website/assets/cg.PNG
+  img: /website/assets/cg.png
   w: 400
   h: 150
   tags:
@@ -70,7 +70,7 @@
   descr: This Solidworks project was completed in tandem with the UAV optimization script described above. Once the optimization code gave me the optimal dimensions, I modeled the plane in Solidworks using the appropriate airfoils, cross sections, and wing sweeps.
   mech: true
   demo: /uav.html
-  img: /website/assets/uavmodel.PNG
+  img: /website/assets/uavmodel.png
   w: 400
   h: 150
   tags:
