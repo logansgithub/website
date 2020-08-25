@@ -45,10 +45,23 @@
   tags:
     - tag: MATLAB
     - tag: Simulink
+    - tag: Aeronautics
+
+
+
+- name: Project 4 - Thermal Image Indexing Code 
+  num: 4
+  descr: "This MATLAB script takes in RGB thermal images from an infrared camera and analyzes the data to trigger a response if the observed region's temperature exceeds a certain threshold. Furthermore, this project can store the data to identify the point in time when the observation region was hottest."
+  demo: /heatmap.html
+  img: /website/assets/thermal.png
+  w: 450
+  h: 150
+  tags:
+    - tag: MATLAB
     - tag: Image Processing
 
-- name: Project 4 - This website!
-  num: 4
+- name: Project 5 - This website!
+  num: 5
   descr: "This website was my first exposure to HTML and Front End Development. I have learned a lot and intend to keep learning more! I continually update this site as I find the time to add more projects and features."
   tags:
     - tag: HTML
