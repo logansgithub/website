@@ -1,0 +1,12 @@
+<h1 class="title">Project: Thermal Image Indexing</h1>
+<p class="subtitle">
+In this project I needed to create a script that could take in RGB images from a thermal camera and analyze them in real time to trigger a response if the temperature in the region exceeds a certain threshold. To accomplish this, the script scans each pixel to identify the RGB color index. Next, I found the values corresponding to the threshold temperature and stated that if any pixel is "redder or whiter" than this reference, an action is taken. To show you how this works, here is what the script "sees" in a sample image. The pixels replaced by white are the ones that were cooler than the reference threshold, and can be ignored.
+</br></br>
+  <IMG SRC="/website/assets/heatmap.png" alt="heatmap" class="responsive">
+</br>
+</br>
+The script also keeps a running tally of the weighted number of hot pixels in the images, allowing you to identify the hottest point in time at the end of the trial.
+</br></br>
+This project was designed for fighting fires and locating hotspots but also could be used for many other applications including surveillance, medical purposes, detecting insulation leaks, and electronics R&D.
+
+</p>
