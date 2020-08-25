@@ -20,11 +20,12 @@ The next step was to create a series of functions that will calculate the perfor
 </br>
 <IMG SRC="/website/assets/nicolai.png" alt="weight estimates" class="responsive">
 </br></br>
-Once the Nicolai function has run, the outputs are entered into another function that will find the Center of Gravity of the plane, as well as the margins of stability. Ideally, since this UAV will need to be very stable, we want the static margin to be between 0.10 - 0.30.
+Once the Nicolai function has run, the outputs are fed into another function that will find the Center of Gravity of the plane, as well as the margins of stability. Ideally, since this UAV will need to be very stable, we want the static margin to be between 0.10 - 0.30.
 </br>
 <IMG SRC="/website/assets/cg.png" alt="cg stability" class="responsive">
 </br></br>
-Finally, we are ready to find the specs of the aircraft. The next function called will use several loops and equations to find everything we need including: parasitic, induced, and total drag, maximum coefficient of lift, maximum velocity, stall speed, cruising speed, range, and endurance. This is done by finding the drag of each component and summing them in addition to an interference factor. On the below chart, you will see that the cruising speed occurs where total drag is at a minimum. This cruising speed is multiplied by the fuel consumption rate to find the endurance of the aircraft.
+Finally, we are ready to find the specs of the aircraft. The next function will use several loops and equations to find everything we need including: parasitic, induced, and total drag, maximum coefficient of lift, maximum velocity, stall speed, cruising speed, range, and endurance. This is done by finding the drag of each component and summing them in addition to an interference factor. On the below chart, you will see that the cruising speed occurs where total drag is at a minimum. This cruising speed is multiplied by the fuel consumption rate to find the endurance of the aircraft.
+</br>
 <IMG SRC="/website/assets/drag.png" alt="drag eqs" class="responsive">
 </br>
 <IMG SRC="/website/assets/dragchart.png" alt="drag plot" class="responsive">
