@@ -14,7 +14,7 @@
 #     - tag: Node
 - name: Project 1 - TunnelMan
   num: 1
-  descr: "This project is a fully functional game modeled after the classic arcade game 'Dig Dug'. Dig your way through the mines in order to find the hidden oil before the angry protesters catch you. You can use tools such as sonar, gold nuggets, and water guns to help protect yourself. Just watch out for fallling rocks. <br> "
+  descr: "This project is a fully functional game modeled after the classic arcade game 'Dig Dug'. Dig your way through the mines in order to find the hidden oil before the enemies catch you. You can use tools such as sonar, gold nuggets, and water guns to help protect yourself. Just watch out for fallling rocks. <br> "
   demo: /p1.html
   tags:
     - tag: C++
