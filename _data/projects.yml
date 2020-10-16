@@ -12,31 +12,8 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
-- name: Project 1 - TunnelMan
+- name: Project 1 - UAV Optimization Script
   num: 1
-  descr: "This project is a fully functional game modeled after the classic arcade game 'Dig Dug'. Dig your way through the mines in order to find the hidden oil before the enemies catch you. You can use tools such as sonar, gold nuggets, and water guns to help protect yourself. Just watch out for fallling rocks. <br> "
-  demo: /p1.html
-  tags:
-    - tag: C++
-    - tag: OOP
-    - tag: Video Game Development
-  img: /website/assets/digdug.png
-  w: 200
-  h: 200
-
-- name: Project 2 - Chrome Dinosaur Game Bot
-  num: 2
-  descr: "This python script is capable of playing the Google Chrome offline Dinosaur Game and avoiding all obstacles. The project utilized the Autopy library’s image processing capabilities in order to respond to the screen in real time."
-  demo: /p2.html
-  img: /website/assets/dino.png
-  w: 400
-  h: 150
-  tags:
-    - tag: Python
-    - tag: Autopy
-    - tag: Image Processing
-- name: Project 3 - UAV Optimization Script
-  num: 3
   descr: "This MATLAB project computes the lift, drag, power required, propeller efficiency, cruising speed, stall speed, stability margins, range, and endurance of a small UAV with a given payload. The script then creates N=100,000 aircraft with randomized geometries such as wing area, wingspan, chord lengths, and fuselage lengths in order to identify the optimal dimensions for maximum endurance. Finally, the code outputs the specs of the best identified aircraft, along with a generated preliminary 3D model."
   demo: /uav.html
   img: /website/assets/cg.png
@@ -49,8 +26,8 @@
 
 
 
-- name: Project 4 - Thermal Image Indexing Code 
-  num: 4
+- name: Project 2 - Thermal Image Indexing Code 
+  num: 2
   descr: "This MATLAB script takes in RGB thermal images from an infrared camera and analyzes the data to trigger a response if the observed region's temperature exceeds a certain threshold. Furthermore, this project can store the data to identify the point in time when the observation region was hottest."
   demo: /heatmap.html
   img: /website/assets/thermal.png
@@ -58,6 +35,30 @@
   h: 150
   tags:
     - tag: MATLAB
+    - tag: Image Processing
+
+- name: Project 3 - TunnelMan
+  num: 3
+  descr: "This project is a fully functional game modeled after the classic arcade game 'Dig Dug'. Dig your way through the mines in order to find the hidden oil before the enemies catch you. You can use tools such as sonar, gold nuggets, and water guns to help protect yourself. Just watch out for fallling rocks. <br> "
+  demo: /p1.html
+  tags:
+    - tag: C++
+    - tag: OOP
+    - tag: Video Game Development
+  img: /website/assets/digdug.png
+  w: 200
+  h: 200
+
+- name: Project 4 - Chrome Dinosaur Game Bot
+  num: 4
+  descr: "This python script is capable of playing the Google Chrome offline Dinosaur Game and avoiding all obstacles. The project utilized the Autopy library’s image processing capabilities in order to respond to the screen in real time."
+  demo: /p2.html
+  img: /website/assets/dino.png
+  w: 400
+  h: 150
+  tags:
+    - tag: Python
+    - tag: Autopy
     - tag: Image Processing
 
 - name: Project 5 - This website!
