@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/website/assets/css/main.min.css">
+  <link rel="stylesheet" href="/website/assets/css/vendors.min.css">
+
+  <script src="/website/assets/js/vendors.min.js"></script>
+  <script src="/website/assets/js/app.min.js"></script>
+  <style>
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+
+  <div class="layout">
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Project: Turbine Analysis</h1>
+<p class="subtitle">
+In this project I needed to model a turbine to determine the maximum stress and deflection in the blades, as well as determine the effects of resonance on the system. To maximize
+software efficiency, I used radial symmetry when modelling the system. First, I started by modelling a single blade of the system and meshing the part. After that, I was able to apply various loads to determine the deflection and stress on each blade as a function of RPM.
+  <IMG SRC="/website/assets/blade.PNG" alt="turbine blade" class="responsive">
+</br>
+</br>
+Next, I used symmetry to model the entire turbine and visualize the blade deflections at the maximum operating speed of 20,000 RPM.
+</br>
+<IMG SRC="/website/assets/turbine.PNG" alt="turbine" class="responsive">
+</br></br>
+The next step was to determine how vibration affected the turbine. Using Abaqus to perform a modal analysis, I was able to identify the first 5 modes and mode shapes at the minimum and maximum RPM's. By assuming that the modal frequencies change linearly with RPM, I was able to create a Campbell diagram showing the vibrational modes for the turbine blades as a function of RPM. In this graph, the green lines show the first 5 modal frequencies as a funtion of RPM.
+</br>
+<IMG SRC="/website/assets/campbell.PNG" alt="engine campbell" class="responsive">
+</br></br>
+Finally - when overlaying this modal turbine data with the engine orders and turbine intake vane orders, the intersections represent the most dangerous frequencies for the entire engine assembly.
+</br>
+<IMG SRC="/website/assets/campbell2.PNG" alt="assembly campbell" class="responsive">
+</br>
+Each intersection is marked by a red circle and notes that a frequency must be dampened at the corresponding RPM in order to avoid resonance in the system between two or more components.
+
+</p>
+
+    </section>
+  </div>
+  <footer class="footer">
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-172898126-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>

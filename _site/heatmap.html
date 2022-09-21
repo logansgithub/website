@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/website/assets/css/main.min.css">
+  <link rel="stylesheet" href="/website/assets/css/vendors.min.css">
+
+  <script src="/website/assets/js/vendors.min.js"></script>
+  <script src="/website/assets/js/app.min.js"></script>
+  <style>
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+
+  <div class="layout">
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Project: Thermal Image Indexing</h1>
+<p class="subtitle">
+In this project I needed to create a script that could take in RGB images from a thermal camera and analyze them in real time to trigger a response if the temperature in the region exceeds a certain threshold. To accomplish this, the script scans each pixel to identify the RGB color index. Next, I found the values corresponding to the threshold temperature and stated that if any pixel is "redder or whiter" than this reference, an action is taken. To show you how this works, here is what the script "sees" in a sample image. The pixels replaced by white are the ones that were cooler than the reference threshold, and can be ignored.
+</br></br>
+  <IMG SRC="/website/assets/heatmap.png" alt="heatmap" class="responsive">
+</br>
+</br>
+The script also keeps a running tally of the weighted number of hot pixels in the images, allowing you to identify the hottest point in time at the end of the trial.
+</br></br>
+This project was designed for fighting fires and locating hotspots but also could be used for many other applications including surveillance, medical purposes, detecting insulation leaks, and electronics R&D.
+
+</p>
+
+    </section>
+  </div>
+  <footer class="footer">
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-172898126-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>

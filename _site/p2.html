@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/website/assets/css/main.min.css">
+  <link rel="stylesheet" href="/website/assets/css/vendors.min.css">
+
+  <script src="/website/assets/js/vendors.min.js"></script>
+  <script src="/website/assets/js/app.min.js"></script>
+  <style>
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+
+  <div class="layout">
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Project 2: Chrome Dino Game Bot</h1>
+<p class="subtitle">This project was written in Python and utilizes the autopy image processing library in order to determine when an obstacle is coming.</br></br>
+  <IMG SRC="/website/assets/dino.gif" alt="Dino Gameplay" class="responsive" style="width:700px;height:170px;">
+</br>
+</br>
+The script looks for obstacles at a set distance in front of the player. When the obstacle gets close enough, the script presses the space bar and the dino jumps.
+However, because the game speeds up this distance is moved farther out as a function of time.
+</br></br>
+This makes it much easier to get a high score and can be run by anyone with Python downloaded. Check out my github for the code.
+</p>
+
+    </section>
+  </div>
+  <footer class="footer">
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-172898126-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>

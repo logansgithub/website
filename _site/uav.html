@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/website/assets/css/main.min.css">
+  <link rel="stylesheet" href="/website/assets/css/vendors.min.css">
+
+  <script src="/website/assets/js/vendors.min.js"></script>
+  <script src="/website/assets/js/app.min.js"></script>
+  <style>
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+
+  <div class="layout">
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Project: UAV Optimization</h1>
+<p class="subtitle">
+In this project I needed to create a MATLAB script that would be able to find the optimal dimensions for a UAV under prescribed conditions. The general philosophy of this project was to use MATLAB to "brute force" the best dimensions for our aircraft. To accomplish this, I first needed to make a function that could calculate the performance specs of an airplane. After that, another script will generate 100,000 aircraft with randomized dimensions and call the first function to identify the best one. 
+</br>
+</br>
+First, I found an engine that would realistically be used on an aircraft in the size range I would be using. For this, I chose the RCV DF35 Single Cylinder UAV Engine 4-Stroke Engine. This engine has a maximum power output of 3.4 horsepower and weighs around 5 pounds. Throughout every iteration, it is assumed that this is the engine being used.
+</br>
+  <IMG SRC="/website/assets/engine.png" alt="engine" class="responsive">
+</br>
+</br>
+In my case, the UAV will need to have a long hang time and a high margin of stability. For this reason, I chose to use the GOE 803 Airfoil due to it's high camber profile which is ideal for producing large amounts of lift in low speed conditions.
+</br>
+<IMG SRC="/website/assets/wing.png" alt="wing profile" class="responsive">
+</br></br>
+Additionally for the tail, I wanted a neutral camber profile so I chose the NACA-0012 Airfoil. The centroids and specs of these two wing profiles were used for all calculations.
+</br>
+<IMG SRC="/website/assets/wing2.png" alt="wing profile" class="responsive">
+</br></br>
+The next step was to create a series of functions that will calculate the performance specs of an aircraft based on the input dimensions. Using the Nicolai Equations, the first MATLAB function returns a converged estimate of the necessary weights for an aircraft of the input dimensions.
+</br>
+<IMG SRC="/website/assets/nicolai.png" alt="weight estimates" class="responsive">
+</br></br>
+Once the Nicolai function has run, the outputs are fed into another function that will find the Center of Gravity of the plane, as well as the margins of stability. Ideally, since this UAV will need to be very stable, we want the static margin to be between 0.10 - 0.30.
+</br>
+<IMG SRC="/website/assets/cg.png" alt="cg stability" class="responsive">
+</br></br>
+Finally, we are ready to find the specs of the aircraft. The next function will use several loops and equations to find everything we need including: parasitic, induced, and total drag, maximum coefficient of lift, maximum velocity, stall speed, cruising speed, range, and endurance. This is done by finding the drag of each component and summing them in addition to an interference factor. On the below chart, you will see that the cruising speed occurs where total drag is at a minimum. This cruising speed is multiplied by the fuel consumption rate to find the endurance of the aircraft.
+</br>
+<IMG SRC="/website/assets/drag.png" alt="drag eqs" class="responsive">
+</br>
+<IMG SRC="/website/assets/dragchart.png" alt="drag plot" class="responsive">
+</br>
+Now that we have everything needed to find the specs of an input aircraft, the main script generates 100,000 randomized aircraft and tests each one. At the end of the run, the best dimensions are saved and we can generate a 3D model based on the results.
+</br>
+<IMG SRC="/website/assets/uavmodel.png" alt="uav model" class="responsive">
+</br>
+Using the engine prescribed and only 1.2 gallons of fuel, this optimized aircraft is able to stay in the air for a theoretical maximum of 29 hours at 15,000 feet. Additionally, the aircraft has a range of over 1,500 miles at a cruising velocity of 73 ft/s. The total weight of this UAV, including the chosen electrical equipment, fuel, and sensors came out to 36.4 pounds.
+</p>
+
+    </section>
+  </div>
+  <footer class="footer">
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-172898126-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>

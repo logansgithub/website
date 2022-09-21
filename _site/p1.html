@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/website/assets/css/main.min.css">
+  <link rel="stylesheet" href="/website/assets/css/vendors.min.css">
+
+  <script src="/website/assets/js/vendors.min.js"></script>
+  <script src="/website/assets/js/app.min.js"></script>
+  <style>
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+
+  <div class="layout">
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Project 1: Tunnelman</h1>
+<p class="subtitle">This project is based off the classic arcade game dig dug. You must dig your way through the map and find all the hidden oil in the level while avoiding the enemies.
+As you progress through the levels there are more objects to find, faster enemies, and less resources to help you.
+Below is some gameplay footage from the project.</br>
+  <IMG SRC="/website/assets/tunnelman.gif" alt="Tunnelman Gameplay" class="responsive" style="width:500px;height:500px;">
+</br>
+<i> Enemies </i>
+<br>
+In this game, various classes of AI enemies follow you as you dig tunnels trying to locate the hidden oil underground. 
+As you progress through the levels, the enemies get increasingly faster and smarter, with the ability to track and follow you.
+</br> </br>
+<i> Squirt Gun</i>
+<br>
+You can protect yourself from enemies with a squirt gun but you have a limited number of shots.
+Refill with the pools of water that spawn at random locations in the tunnels.</br> </br>
+<i> Sonar </i>
+<br>
+You can use sonar to reveal hidden oil stores nearby. Usually these resources require you to be within a tight radius but the sonar shows you the location of hidden reserves.
+</br> </br>
+<i> Falling Objects</i>
+<br>
+Watch out for the falling rocks! When the ground beneath them is removed, the boulders become unstable and will fall. These can kill the enemies but 
+will hurt you as well if you're not careful.
+
+</br> </br>
+<i> Gold</i>
+<br>
+As you pick up gold in the tunnels, you can drop it behind to distract lower level enemies. However, the higher level AI will not be stopped by this trick. 
+Just be careful to not drop it too soon because the gold will disappear.
+</br> </br>
+ </p>
+
+    </section>
+  </div>
+  <footer class="footer">
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-172898126-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>

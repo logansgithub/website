@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Portfolio">
+  <meta property="og:image" content="https://i.imgur.com/EjvDLDE.jpg">
+  <meta property="og:image:secure_url" content="https://i.imgur.com/EjvDLDE.jpg">
+  <meta property='og:title' content='Title of the article'/>
+  <meta property='og:url' content='https://logansgithub.github.io/website/'/>
+  
+  <title>Portfolio</title>
+  <meta name="description" content="This is a personal website designed to better show my portfolio. Built with Jekyll and written in HTML.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/website/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/website/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/website/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/website/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="/website/assets/css/main.min.css">
+  <link rel="stylesheet" href="/website/assets/css/vendors.min.css">
+
+  <script src="/website/assets/js/vendors.min.js"></script>
+  <script src="/website/assets/js/app.min.js"></script>
+  
+  <style>
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+  <div id="landing">
+  <div class="landing-title">
+    <h1>
+      <span class="highlight-title">Logan Engler</span>
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["Product Development","Mechanical | SW/FW | Systems", "scroll down for more."]'
+      >
+      </span>
+    </h1>
+    <div class="landing-icons">
+      
+        <a class="social-link email" aria-label="My E-Mail" href="mailto:logan@engler.com">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/website/assets/img/solid.svg#envelope""></use>
+            </svg>
+          </div>
+          <span class="label">E-Mail</span>
+        </a>
+      
+
+      
+        <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/logansgithub"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/website/assets/img/brands.svg#github"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub</span>
+        </a>
+      
+
+      
+
+      
+
+      
+        <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+          rel="noreferrer" href="https://www.linkedin.com/in/loganengler"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/website/assets/img/brands.svg#linkedin-in"></use>
+            </svg>
+          </div>
+          <span class="label">LinkedIn</span>
+        </a>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+  <div class="layout">
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">About Me</h1>
+<p class="description" data-aos="fade-down">I graduated from UCLA in 2021 with a major in Mechanical Engineering with Computer Science focus.
+   In my free time I enjoy backpacking, surfing, and mountain biking. This website is something I made for fun to get experience with HTML and 
+   showcase the things I have worked on. 
+
+  <br> </br>
+
+  I am now working with Novo Engineering to create custom solutions for industry disrupting products. Mainly focusing in biotech automation,
+  I have designed novel subsystems and improved existing ones for a variety of client projects. 
+
+
+
+</p>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Education & Experience</h1>
+<p class="subtitle">
+  For more info, take a look at my full
+  <a class="highlight-link" href="https://ucla.box.com/s/wrfds5ek4wzq4vi4sfihu0f5fhjrbf0z" target="_blank" rel="noreferrer">
+    resume
+  </a>.
+</p>
+
+<div class="timeline-wrapper">
+  <ul class="timeline">
+    <li>
+      <div class="direction-r">
+        <div class="flag-wrapper">
+          <span class="hexagon"></span>
+          <span class="flag neumorphism-button" data-aos="zoom-in-right">
+            <a href="https://novoengineering.com/" target="_blank" rel="noreferrer">
+              <span>NOVO Engineering</span>
+            </a>
+          </span>
+          <span class="time-wrapper" data-aos="zoom-in-right">
+            <span class="time neumorphism-card">May 2022 - Present</span>
+          </span>
+        </div>
+        <div class="desc neumorphism-card" data-aos="zoom-in-right">
+          Development Engineer II
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">Heater PID</span>
+                <span class="tag neumorphism-card">Fluid Handling</span>
+                <span class="tag neumorphism-card">Automation Scripting</span>
+                                        
+            </div>
+          
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="direction-r">
+        <div class="flag-wrapper">
+          <span class="hexagon"></span>
+          <span class="flag neumorphism-button" data-aos="zoom-in-right">
+            <a href="https://novoengineering.com/" target="_blank" rel="noreferrer">
+              <span>NOVO Engineering</span>
+            </a>
+          </span>
+          <span class="time-wrapper" data-aos="zoom-in-right">
+            <span class="time neumorphism-card">Aug 2021 - May 2022</span>
+          </span>
+        </div>
+        <div class="desc neumorphism-card" data-aos="zoom-in-right">
+          Development Engineer I
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">Mechanical Design</span>
+                <span class="tag neumorphism-card">System Architecture</span>
+                <span class="tag neumorphism-card">Documentation</span>
+                                        
+            </div>
+          
+        </div>
+      </div>
+    </li>
+
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://www.bruinracing.com/" target="_blank" rel="noreferrer">
+                  <span>Bruin Racing</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Jan 2020 - Present</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Business Team
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Cost Analysis</span>
+                  
+                    <span class="tag neumorphism-card">Fund Management</span>
+                  
+                    <span class="tag neumorphism-card">Public Speaking</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://www.bruinracing.com/" target="_blank" rel="noreferrer">
+                  <span>Bruin Racing</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Sep 2019 - Present</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Chassis Engineer
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">FEA</span>
+                  
+                    <span class="tag neumorphism-card">Solidworks</span>
+                  
+                    <span class="tag neumorphism-card">Manufacturing</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://reslife.ucla.edu/" target="_blank" rel="noreferrer">
+                  <span>UCLA Housing</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Summer 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Resident Assistant
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Leadership</span>
+                  
+                    <span class="tag neumorphism-card">Conflict Resolution</span>
+                  
+                    <span class="tag neumorphism-card">Management</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://reslife.ucla.edu/" target="_blank" rel="noreferrer">
+                  <span>UCLA Housing</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">2017 - 2018</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Community Representative
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Leadership</span>
+                  
+                    <span class="tag neumorphism-card">Budgeting</span>
+                  
+                    <span class="tag neumorphism-card">Public Speaking</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://www.metawave.co/" target="_blank" rel="noreferrer">
+                  <span>Metawave</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Fall 2018</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Engineering Intern
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">CAD Design</span>
+                  
+                    <span class="tag neumorphism-card">3D Printing</span>
+                  
+                    <span class="tag neumorphism-card">Product Verification</span>
+                  
+                    <span class="tag neumorphism-card">Product Assembly</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://www.usnews.com/best-colleges/rankings/national-universities/top-public" target="_blank" rel="noreferrer">
+                  <span>UCLA</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">2017 - 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              BS. Mechanical Engineering <br> <strong><em>Upper Div GPA</em></strong> - 3.91 <br> <strong><em>Activities</em></strong> - Bruin Racing SAE Baja Car Team, 3D Printing Club, Competetive Sailing Team
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Mechanical Engineering</span>
+                  
+                    <span class="tag neumorphism-card">Computer Science</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="" target="_blank" rel="noreferrer">
+                  <span>Mount Carmel High School</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">2013 - 2017</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              <strong><em>GPA</em></strong> - 4.0 <br> <strong><em>Activities</em></strong>- Varsity water polo, Varsity Lacrosse, Marching Band, Rock Climbing Club <br> <strong><em>Honors</em></strong>- CSF, NHS, PTA Scholarship
+              
+            </div>
+          </div>
+        </li>
+      
+    
+  </ul>
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        
+  <h1 class="title"><span>Coding Projects</span></h1>
+  <div class="projects-wrapper">
+    
+     
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Project 1 - TunnelMan</h3>
+        </div>
+        <p class="project-desc">This class project is a fully functional game modeled after the classic arcade game 'Dig Dug'. Dig your way through the mines in order to find the hidden oil before the angry protesters catch you. You can use tools such as sonar, gold nuggets, and water guns to help protect yourself. Just watch out for fallling rocks. <br> </p>
+
+        
+	<center>
+	<a href="/website/p1.html">
+          <img src="/website/assets/digdug.png" alt="Wrong Path" class="responsive" width="200" height="200">
+        </a>
+	</center>
+	
+
+        
+          <a class="highlight-link" href="/website/p1.html" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">C++</span>
+            
+              <span class="tag neumorphism-card">OOP</span>
+            
+              <span class="tag neumorphism-card">Video Game Development</span>
+            
+          </div>
+        
+      </div>
+     
+    
+     
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Project 2 - Chrome Dinosaur Game Bot</h3>
+        </div>
+        <p class="project-desc">This python script is capable of playing the Google Chrome offline Dinosaur Game and avoiding all obstacles. The project utilized the Autopy library’s image processing capabilities in order to respond to the screen in real time.</p>
+
+        
+	<center>
+	<a href="/website/p2.html">
+          <img src="/website/assets/dino.png" alt="Wrong Path" class="responsive" width="400" height="150">
+        </a>
+	</center>
+	
+
+        
+          <a class="highlight-link" href="/website/p2.html" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">Python</span>
+            
+              <span class="tag neumorphism-card">Autopy</span>
+            
+              <span class="tag neumorphism-card">Image Processing</span>
+            
+          </div>
+        
+      </div>
+     
+    
+     
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Project 3 - UAV Optimization Script</h3>
+        </div>
+        <p class="project-desc">This MATLAB project computes the lift, drag, power required, propeller efficiency, cruising speed, stall speed, stability margins, range, and endurance of a small UAV with a given payload. The script then creates N=100,000 aircraft with randomized geometries such as wing area, wingspan, chord lengths, and fuselage lengths in order to identify the optimal dimensions for maximum endurance. Finally, the code outputs the specs of the best identified aircraft, along with a generated preliminary 3D model.</p>
+
+        
+	<center>
+	<a href="/website/uav.html">
+          <img src="/website/assets/cg.png" alt="Wrong Path" class="responsive" width="400" height="150">
+        </a>
+	</center>
+	
+
+        
+          <a class="highlight-link" href="/website/uav.html" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">MATLAB</span>
+            
+              <span class="tag neumorphism-card">Simulink</span>
+            
+              <span class="tag neumorphism-card">Aeronautics</span>
+            
+          </div>
+        
+      </div>
+     
+    
+     
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Project 4 - Thermal Image Indexing Code</h3>
+        </div>
+        <p class="project-desc">This MATLAB script takes in RGB thermal images from an infrared camera and analyzes the data to trigger a response if the observed region's temperature exceeds a certain threshold. Furthermore, this project can store the data to identify the point in time when the observation region was hottest.</p>
+
+        
+	<center>
+	<a href="/website/heatmap.html">
+          <img src="/website/assets/thermal.png" alt="Wrong Path" class="responsive" width="450" height="150">
+        </a>
+	</center>
+	
+
+        
+          <a class="highlight-link" href="/website/heatmap.html" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">MATLAB</span>
+            
+              <span class="tag neumorphism-card">Image Processing</span>
+            
+          </div>
+        
+      </div>
+     
+    
+     
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Project 5 - This website!</h3>
+        </div>
+        <p class="project-desc">This website was my first exposure to HTML and Front End Development. I have learned a lot and intend to keep learning more! I continually update this site as I find the time to add more projects and features.</p>
+
+        
+
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">HTML</span>
+            
+              <span class="tag neumorphism-card">Jekyll</span>
+            
+              <span class="tag neumorphism-card">Markdown</span>
+            
+          </div>
+        
+      </div>
+     
+    
+     
+    
+     
+    
+  </div>
+
+
+
+
+
+
+      </section>
+      <section class="card neumorphism-card-big">
+        
+  <h1 class="title"><span>Mechanical Projects</span></h1>
+  <div class="projects-wrapper">
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Engine Turbine Modal and Deflection Analysis - Abaqus</h3>
+        </div>
+
+        <p class="project-desc">In this project I modeled an engine turbine and determined the maximum deflections of the blades in the relevant range of RPM. Additionally, I found the vibrational modes of the engine and created a Campbell diagram in MATLAB to highlight the frequencies to dampen at operating RPM.</p>
+
+        
+	<center>
+	<a href="/website/turbine.html">
+          <img src="/website/assets/turbine.PNG" alt="Wrong Path" class="responsive" width="776" height="646">
+        </a>
+	</center>
+	
+
+        
+          <a class="highlight-link" href="/website/turbine.html" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">FEA</span>
+            
+              <span class="tag neumorphism-card">Abaqus</span>
+            
+          </div>
+        
+      </div>
+     
+     
+      
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>UAV Design - CAD</h3>
+        </div>
+
+        <p class="project-desc">This Solidworks project was completed in tandem with the UAV optimization script described above. Once the optimization code gave me the optimal dimensions, I modeled the plane in Solidworks using the appropriate airfoils, cross sections, and wing sweeps.</p>
+
+        
+	<center>
+	<a href="/website/uav.html">
+          <img src="/website/assets/uavmodel.png" alt="Wrong Path" class="responsive" width="400" height="150">
+        </a>
+	</center>
+	
+
+        
+          <a class="highlight-link" href="/website/uav.html" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+	
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">Solidworks</span>
+            
+              <span class="tag neumorphism-card">Aeronautics</span>
+            
+          </div>
+        
+      </div>
+     
+    
+  </div>
+
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills</h1>
+
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language">Mechanical</label>
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework">Comp Sci</label>
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Soft Skills</label>
+
+  
+    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+      Solidworks
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      ABAQUS
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      3D Printing
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      FEA
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Machining
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Heat Transfer
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      CNC
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      CAD
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      Thermodynamics
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      Aeronautics
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Fluid Mechanics
+    </div>
+  
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      C++
+    </div>
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      MATLAB
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      HTML
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      Jekyll
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      CSS
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      OOP
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      Python
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      Prolog
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Simulink
+    </div>
+  
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Leadership
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Public Speaking
+    </div>
+  
+    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
+      Budgeting
+    </div>
+  
+    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
+      Fund Management
+    </div>
+  
+    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+      Teamwork
+    </div>
+  
+    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
+      Problem Solving
+    </div>
+  
+    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+      Communication
+    </div>
+  
+</div>
+
+      </section>
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact Me</h1>
+<p class="subtitle">Feel free to contact me on LinkedIn or by email anytime. I am looking for career opportunities both in mechanical and programming fields.</p>
+
+<div class="contact-icons">
+  
+  <a class="social-link" aria-label="My E-Mail" href="mailto:logan@engler.com">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/website/assets/img/solid.svg#envelope"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/logansgithub">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/website/assets/img/brands.svg#github"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
+    href="https://www.linkedin.com/in/loganengler">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/website/assets/img/brands.svg#linkedin-in"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-172898126-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>
