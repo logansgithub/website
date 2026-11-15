@@ -13,7 +13,7 @@ baseurl: "/website"
 username: Logan Engler
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Product Development
+typing_text: Senior Automation Engineer
 # email: Your E-Mail address for the email button.
 email: logan@engler.com
 # For every social button you want to display, set your username or userid
@@ -33,7 +33,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I graduated from UCLA with a major in Mechanical Engineering and additional technical focus in  Computer Science. In my free time I enjoy backpacking, surfing, and mountain biking. This website is something I made for fun to get experience with HTML and showcase the things I have worked on.
+about_me_description: I am a Senior Automation Engineer at Illumina specializing in electromechanical system integration, precision fixture design, and PLC control systems to scale manufacturing processes. I am also pursuing an M.S. in Computer Science at the University of Colorado Boulder, building on my B.S. in Mechanical Engineering from UCLA. In my free time I enjoy backpacking, surfing, and mountain biking.
 
 # SKILLS SECTION
 # show_skills_card:

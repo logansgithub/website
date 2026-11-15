@@ -8,26 +8,32 @@
 - name: Solidworks
   weight: 5
 
+- name: CAD
+  weight: 5
+
+- name: GD&T
+  weight: 4
+
 - name: ABAQUS
   weight: 4
 
 - name: 3D Printing
-  weight: 1
+  weight: 3
 
 - name: FEA
-  weight: 2
+  weight: 3
 
 - name: Machining
   weight: 3
 
 - name: Heat Transfer
-  weight: 1
+  weight: 2
 
 - name: CNC
-  weight: 1
-
-- name: CAD
   weight: 2
+
+- name: PID Control
+  weight: 3
 
 - name: Thermodynamics
   weight: 2
@@ -36,6 +42,6 @@
   weight: 4
 
 - name: Fluid Mechanics
-  weight: 1
+  weight: 2
 
 

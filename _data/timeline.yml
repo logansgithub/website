@@ -17,8 +17,59 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Illumina
+  title-url: https://www.illumina.com/
+  date: May 2026 - Present
+  subtitle: <strong>Senior Automation Engineer</strong> <br> Prototyping automation designs for tools to scale manufacturing processes.
+  tags:
+    - tag: Automation Design
+    - tag: Rapid Prototyping
+    - tag: Electromechanical Systems
+  timeline-side: left
+
+- title: University of Colorado Boulder
+  title-url: https://www.colorado.edu/cs/
+  date: Current
+  subtitle: M.S. Computer Science
+  tags:
+    - tag: Computer Science
+    - tag: Software Engineering
+  timeline-side: right
+
+- title: Illumina
+  title-url: https://www.illumina.com/
+  date: May 2023 - May 2026
+  subtitle: <strong>Automation Engineer</strong> <br> Programmed and troubleshot Beckhoff control systems, designed and procured precision fixture assemblies, and developed RFID architecture to encrypt manufacturing data.
+  tags:
+    - tag: PLC Programming
+    - tag: Beckhoff
+    - tag: CAD & Fixture Design
+    - tag: RFID Architecture
+  timeline-side: left
+
+- title: NOVO Engineering, Inc.
+  title-url: https://www.novoengineering.com/
+  date: May 2022 - Apr 2023
+  subtitle: <strong>Mechanical Development Engineer II</strong> <br> Developed, built, and installed a series of bioreactors; managed production timeline, BOM, and technical logistics; spearheaded fluid delivery scripts and dual-loop PID temperature regulation.
+  tags:
+    - tag: Bioreactors
+    - tag: PID Control
+    - tag: Fluidics
+    - tag: Project Management
+  timeline-side: left
+
+- title: NOVO Engineering, Inc.
+  title-url: https://www.novoengineering.com/
+  date: Aug 2021 - May 2022
+  subtitle: <strong>Development Engineer</strong> <br> Designed and implemented mechanical improvements for an automated vision system.
+  tags:
+    - tag: Mechanical Design
+    - tag: Automated Vision Systems
+    - tag: Solidworks
+  timeline-side: left
+
 - title: Bruin Racing
-  date: Jan 2020 - Present
+  date: Jan 2020 - Jun 2020
   title-url: https://www.bruinracing.com/
   subtitle: Business Team
   tags:
@@ -27,9 +78,17 @@
     - tag: Public Speaking
   timeline-side: left
 
+- title: International Christian University
+  title-url: https://www.icu.ac.jp/en/
+  date: 2019 - 2020
+  subtitle: UCEAP Study Abroad Program in Tokyo, Japan
+  tags:
+    - tag: Study Abroad
+  timeline-side: right
+
 - title: Bruin Racing
   title-url: https://www.bruinracing.com/
-  date: Sep 2019 - Present
+  date: Sep 2017 - Apr 2020
   subtitle: Chassis Engineer
   tags:
     - tag: FEA

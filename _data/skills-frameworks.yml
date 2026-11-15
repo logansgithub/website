@@ -6,11 +6,29 @@
 # - name: Framework
 #   weight: 5
 
+- name: PLC Programming
+  weight: 5
+
+- name: Beckhoff / TwinCAT
+  weight: 4
+
 - name: C++
   weight: 5
 
 - name: MATLAB
   weight: 5
+
+- name: Python
+  weight: 4
+
+- name: OOP
+  weight: 4
+
+- name: VBA
+  weight: 3
+
+- name: RFID Systems
+  weight: 3
 
 - name: HTML
   weight: 2
@@ -20,12 +38,6 @@
 
 - name: CSS
   weight: 2
-
-- name: OOP
-  weight: 2
-
-- name: Python
-  weight: 4
 
 - name: Prolog
   weight: 1
